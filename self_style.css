@@ -67,7 +67,7 @@ body {
 
 .bmenu {
     background-color: #fafafa;
-    border: 1px solid gray;
+    border-top: 1px solid gray;
     margin: 50px 0 0 0 ;
 }
 .bmenu ul {
@@ -97,4 +97,30 @@ body {
 .footer-logo p {
     color: white;
     margin: 20px 0;
+}
+
+/* media query*/
+@media screen and (max-width: 360px) {
+    #model {
+        width: 320px;
+        left: 50%;  /*왼쪽 위치 : 화면의 중앙*/
+        margin-left: -160px;/*왼쪽 여백: 사진의 1/2 더 왼쪽으로*/
+    }
+    #model img {
+        width: 100%;
+    }
+    .menu a {
+        font-size: 14px;
+        letter-spacing: -3px; /* 자간 : 글자간격 좁게*/
+    }
+    .price, .cast {
+        width: 83%;
+    }
+    .price th, .cast th {
+        width: 25%;
+    }
+    .price th, .price td, .cast th, .cast td  {
+        font-size: 14px;
+        letter-spacing: -1px;
+    }
 }
