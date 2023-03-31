@@ -100,7 +100,7 @@ body {
 }
 
 /* media query*/
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
     #model {
         width: 320px;
         left: 50%;  /*왼쪽 위치 : 화면의 중앙*/
